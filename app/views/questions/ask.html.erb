@@ -1,4 +1,14 @@
-<form action="/answer" data-turbo="false">
-  <input type="text" name="question">
-  <input type="submit" value="Ask!">
+<h1>Stupid Coaching</h1>
+<p>Ask your coach anything: </p>
+<div class="global">
+<form action="/answer" data-turbo="false" class="form-inline">
+  <div class="row">
+    <div class="col-8">
+      <input type="text" name="question" class="form-control" placeholder="Your question here">
+    </div>
+    <div class="col-4">
+      <button type="submit" class="btn btn-primary mb-2">Ask!</button>
+    </div>
+  </div>
+  </div>
 </form>
